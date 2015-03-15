@@ -1,0 +1,28 @@
+{
+  "name": "4front-oauth2",
+  "version": "1.0.0",
+  "description": "OAuth2 plugin for 4front multi-tenant platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "oauth2",
+    "4front"
+  ],
+  "author": "David Von Lehman <https://github.com/dvonlehman>",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "dependencies": {
+    "debug": "^2.1.3",
+    "lodash": "^3.5.0",
+    "passport": "^0.2.1",
+    "passport-oauth2": "^1.1.2",
+    "shortid": "^2.1.3",
+    "simple-errors": "^1.0.1"
+  }
+}
